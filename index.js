@@ -16,7 +16,7 @@ dotenv.config({ path: "./config.env" });
 app.use(express.json());
 
 // port
-let port = process.env.PORT;
+let port = process.env.PORT || 4000;
 
 // Twitter config
 const { Client } = twitter;

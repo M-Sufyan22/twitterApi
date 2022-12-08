@@ -10,3 +10,6 @@
             "status": 200
         }
     ],
+
+
+    "start": "node index.js",
