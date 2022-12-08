@@ -6,7 +6,7 @@ var twitter = require("twitter-api-sdk");
 
 //
 var corsOptions = {
-    origin: ["http://localhost:3000", "https://smashcode-tellittogether.netlify.app/"],
+    origin: ["http://localhost:3000", "https://smashcode-tellittogether.netlify.app"],
 };
 
 app.use(cors(corsOptions));
