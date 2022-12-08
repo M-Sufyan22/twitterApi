@@ -2,7 +2,7 @@
     "version": 2,
     "name": "payment-server",
     "builds": [{
-        "src": "index.js",
+        "src": "./index.js",
         "use": "@vercel/node"
     }],
     "routes": [{
